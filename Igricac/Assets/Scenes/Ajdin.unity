@@ -849,11 +849,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29f8620aaa3b520488a90c70d43123a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  interactRange: 1.4
-  interactiveObject: {fileID: 0}
-  cam: {fileID: 0}
-  showGUI: 0
 --- !u!1 &1064478421
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,10 +1278,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5194731fdd580f947828f53af16c1bf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  counterText: {fileID: 0}
+  counterText: {fileID: 1618136784}
   seconds: 0
   minutes: 0
-  light: {fileID: 1976610749}
+  light: {fileID: 0}
 --- !u!114 &1618136784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1495,9 +1490,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: FPSController
       objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
-      propertyPath: m_Layer
-      value: 2
+    - target: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.831
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1555,9 +1550,9 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.37225
       objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.831
+    - target: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 14300000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_Radius
@@ -4934,13 +4929,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdf73b4782212746a65e4e2a1af63c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  openPosition: {x: 0.567, y: 2.467646, z: 1.250161}
-  closedPosition: {x: 0.2131786, y: 2.467646, z: 1.250161}
-  animationTime: 1
-  isOpen: 0
-  movementType: 0
-  aSource: {fileID: 0}
 --- !u!1 &2143265985
 GameObject:
   m_ObjectHideFlags: 0
@@ -4971,13 +4959,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdf73b4782212746a65e4e2a1af63c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  openPosition: {x: 0.357, y: 2.467646, z: 1.217742}
-  closedPosition: {x: 0.7331793, y: 2.467646, z: 1.217742}
-  animationTime: 1
-  isOpen: 0
-  movementType: 0
-  aSource: {fileID: 0}
 --- !u!1 &2143265987
 GameObject:
   m_ObjectHideFlags: 0
@@ -5008,13 +4989,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdf73b4782212746a65e4e2a1af63c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  openPosition: {x: 0.891, y: 2.467646, z: 1.250161}
-  closedPosition: {x: 1.258825, y: 2.467646, z: 1.250161}
-  animationTime: 1
-  isOpen: 0
-  movementType: 0
-  aSource: {fileID: 0}
 --- !u!1 &2143265989
 GameObject:
   m_ObjectHideFlags: 0
@@ -5045,13 +5019,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdf73b4782212746a65e4e2a1af63c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  openPosition: {x: 0.582, y: 1.380228, z: 1.226255}
-  closedPosition: {x: 0.2178946, y: 1.380228, z: 1.226255}
-  animationTime: 1
-  isOpen: 0
-  movementType: 0
-  aSource: {fileID: 0}
 --- !u!1 &2143265991
 GameObject:
   m_ObjectHideFlags: 0
@@ -5082,13 +5049,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdf73b4782212746a65e4e2a1af63c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  openPosition: {x: 0.879, y: 1.380228, z: 1.226255}
-  closedPosition: {x: 1.251708, y: 1.380228, z: 1.226255}
-  animationTime: 1
-  isOpen: 0
-  movementType: 0
-  aSource: {fileID: 0}
 --- !u!1 &2143265993
 GameObject:
   m_ObjectHideFlags: 0
@@ -5119,13 +5079,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdf73b4782212746a65e4e2a1af63c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  openPosition: {x: 0.339, y: 1.380228, z: 1.189078}
-  closedPosition: {x: 0.7442488, y: 1.380228, z: 1.189078}
-  animationTime: 1
-  isOpen: 0
-  movementType: 0
-  aSource: {fileID: 0}
 --- !u!1 &2143265995
 GameObject:
   m_ObjectHideFlags: 0
@@ -5616,13 +5569,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdf73b4782212746a65e4e2a1af63c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  openPosition: {x: 0.625, y: 0.93, z: 0.27}
-  closedPosition: {x: 0.9116598, y: 0.9247586, z: 0.2702336}
-  animationTime: 1
-  isOpen: 0
-  movementType: 0
-  aSource: {fileID: 0}
 --- !u!1 &2143266005
 GameObject:
   m_ObjectHideFlags: 0

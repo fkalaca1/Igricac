@@ -60,7 +60,6 @@ public class PauzaScript : MonoBehaviour
         PanelRangLista.SetActive(false);
         Time.timeScale = 1f;
         daLiJePauziran = false;
-        Cursor.lockState = CursorLockMode.Locked;
     }
     public void Pauziraj()
     {

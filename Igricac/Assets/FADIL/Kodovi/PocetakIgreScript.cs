@@ -36,6 +36,7 @@ public class PocetakIgreScript : MonoBehaviour
 
     public void ClickLogInPanelLogin()
     {
+        /*
         ReadPlayers();
         if (areCredentialsValid())
         {
@@ -44,6 +45,11 @@ public class PocetakIgreScript : MonoBehaviour
             //SceneManager.UnloadScene("Pocetak");
             SceneManager.LoadScene("Igra");
         }
+        */ 
+         Debug.Log("TUUUUUUU");
+         daLiJeLogovan = true;
+         SceneManager.LoadScene("Igra");
+        
         
     }
 
@@ -55,7 +61,7 @@ public class PocetakIgreScript : MonoBehaviour
 
     public void ReadPlayers()
     {
-        using (var reader = new StreamReader(@"./Assets/spisak_igraca.csv"))
+        using (var reader = new StreamReader(Directory.GetCurrentDirectory() + "/Assets/spisak_igraca.csv"))
         {
             usernames = new List<string>();
             passwords = new List<string>();

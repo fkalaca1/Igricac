@@ -38,28 +38,35 @@ public class Trigger_Animation : MonoBehaviour {
     {
         if (Use.ProvjeraPogodjenog(taggedUsableObjectsNames) && !animacija.IsPlaying(nazivAnimacije))
         {
+            
             //Pritisni tipku da pokrenes animaciju
             if (Input.GetButtonDown("Fire1") && !otvorena)
             {
-                if (ugasiSvijetlo) 
-                    hintLight.enabled = false;
+                Debug.Log("TU");
+                //if (ugasiSvijetlo) 
+                    //hintLight.enabled = false;
                 if (taggedUsableObjectsNames[0] == "PomjerajuciPredmet")
                 {
                     pronadjen = true;
-					PauzaScript.nadjenItem2 = false;
+                    Debug.Log("Usao");
+                    Debug.Log(pronadjen);
+                    PauzaScript.nadjenItem2 = false;
                 }
                 animacija[nazivAnimacije].speed = 1;
                 animacija[nazivAnimacije].time = 0;
                 animacija.Play();
                 otvorena = true;
+                Debug.Log(pronadjen);
+                Debug.Log("TU1");
             }
             else if (Input.GetButtonDown("Fire1") && otvorena)
             {
-
+                Debug.Log("TU2");
                 animacija[nazivAnimacije].speed = -1f;
                 animacija[nazivAnimacije].time = animacija[nazivAnimacije].length;
                 animacija.Play();
                 otvorena = false;
+                Debug.Log("TU3");
             }
         }
     }
